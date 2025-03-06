@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+  body{ 
+	background-image: url(https://static.vecteezy.com/system/resources/previews/006/789/451/non_2x/abstract-black-friday-wallpaper-luxury-background-template-color-art-template-business-dark-vector.jpg); 
+	background-repeat: no-repeat; 
+	color: none; min-height: 500px; 
+	background-attachment: fixed,scroll; 
+	background-position: center; 
+	background-repeat: no-repeat,repeat-y; 
+	background-size: cover;
+	
+}
+.about-me {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+ 
+}
+.pic {
+  height: auto;
+  width: 400px;
+  border-radius: 12px;
+}
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  width: 540px;
+}
+.text h2 {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.text h5 {
+  color: #F5E3DC;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span {
+  color: #4070f4;
+}
+.text p {
+  color: #F5E3DC;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/*Footer*/
+footer {
+	font-family: 'Montserrat'; 
+	text-transform: uppercase; 
+	letter-spacing: 0.9em;
+	text-align:center;
+	font-size:13px;
+	color: #F5E3DC;
+	position: fixed; 
+	padding-bottom: 0; 
+	left: 0; 
+	bottom: 0;
+	width: 100%; 
+	}
